@@ -10,6 +10,10 @@ local ScriptAnimations = {
     {
         NameButton = "KJ", 
         Loadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterblabla/FECLIENT/refs/heads/main/KJ%20Larping"))()]]
+    },
+    {
+        NameButton = "Liu Kang", 
+        Loadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterblabla/Made-By-Scripterblabla-/refs/heads/main/Liu%20Kang%20By%20Scripterblabla"))()]]
     }
 }
 
