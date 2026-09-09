@@ -14,6 +14,14 @@ local ScriptAnimations = {
     {
         NameButton = "Liu Kang Wc", 
         Loadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterblabla/Made-By-Scripterblabla-/refs/heads/main/Liu%20Kang%20By%20Scripterblabla"))()]]
+    },
+    {
+        NameButton = "Inosuke", 
+        Loadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterblabla/FECLIENT/refs/heads/main/K1ng%200f%20Th3%20M0unt%40in%20By%20Scripterblabla"))()]]
+    },
+    {
+        NameButton = "Shidou (ban_thid)", 
+        Loadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterblabla/Shidou-Blue-lock/refs/heads/main/ModifiedShidou%20(4).txt"))()]]
     }
 }
 
@@ -240,13 +248,25 @@ function GeneratePage4()
     local P4Id = Instance.new("IntValue")
     P4Id.Value = 0
 
-    Label(ScrollPage4,"---Version 1.1---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Version 1.2---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
-    Label(ScrollPage4,"---Added Liu Kang Wc---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Added Inosuke---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
-    Label(ScrollPage4,"---Fix Some Bugs---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Added Shidou---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
-    Label(ScrollPage4,"---More Update coming soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Fixed Bug---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    P4Id.Value = P4Id.Value + 1
+    
+    
+    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    P4Id.Value = P4Id.Value + 1
+    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    P4Id.Value = P4Id.Value + 1
+    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    P4Id.Value = P4Id.Value + 1
+    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    P4Id.Value = P4Id.Value + 1
+    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
 
     ScrollPage4.CanvasSize = UDim2.new(0,0,0,35*P4Id.Value)
@@ -336,4 +356,4 @@ if TargetParent ~= nil then
 			ToggleMenu()
 		end) 
 	end)
-end
+end 
