@@ -34,7 +34,8 @@ local ScriptAnimations = {
 }
 
 local ReanimateName = "Load Reanimate"
-local ReanimateLoadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/banishercool/banishercool/refs/heads/main/Green%20Baseplate%20Reanimate.lua.txt"))()]]
+local ReanimateLoadstring = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterblabla/Gix-Hub-By-Scripterblabla/refs/heads/main/Gix%20Reanimated"))()
+]]
 
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
@@ -213,7 +214,7 @@ function GeneratePage2()
     local P2Id = Instance.new("IntValue")
     P2Id.Value = 0
 
-    Button(ScrollPage2, ReanimateName .. " (Only Netless)", EmptySP, EmptySP, function()
+    Button(ScrollPage2, ReanimateName .. " (Gix Reanimate)", EmptySP, EmptySP, function()
         pcall(function()
             local func, err = loadstring(ReanimateLoadstring)
             if func then 
@@ -262,7 +263,7 @@ function GeneratePage4()
     P4Id.Value = P4Id.Value + 1
     Label(ScrollPage4,"---Added Shinjuku Yuji As Bonus---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
-    Label(ScrollPage4,"---Fixed Something Idk---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Fixed Reanimate---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
     Label(ScrollPage4,"---KJ Rework Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
@@ -270,9 +271,9 @@ function GeneratePage4()
     P4Id.Value = P4Id.Value + 1
     
     
-    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Fixed Some Bug---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
-    Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
+    Label(ScrollPage4,"---Added New Reanimate---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
     Label(ScrollPage4,"---Coming Soon---",UDim2.new(1,0,0,35),UDim2.new(0,0,0,35*P4Id.Value)) 
     P4Id.Value = P4Id.Value + 1
